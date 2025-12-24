@@ -18,7 +18,7 @@ using (var clinet = new AmazonSimpleEmailServiceClient(Amazon.RegionEndpoint.USE
 			Body = new Body
 			{
 				Html= new Content("""
-					<html><body><h1>Hello from Amazon</h1></body></html>
+					<html><body><h1>Hello from Amazon This is the third message.</h1></body></html>
 					""")
 			}
 		}
