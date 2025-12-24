@@ -6,8 +6,8 @@ This project is to test the Email for Amazon SES
 We have successfully sent an email from Visual Studio 2026 through the AWS SES.
 
 The following are the two nuget packages that were required for functionality
-    PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="4.0.3.17"
-    PackageReference Include="AWSSDK.SimpleEmail" Version="4.0.2.8"
+    - PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="4.0.3.17"
+    - PackageReference Include="AWSSDK.SimpleEmail" Version="4.0.2.8"
 
 The way this is written is to output to a console window. Thus this is a console application.
 
