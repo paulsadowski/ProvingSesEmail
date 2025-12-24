@@ -1,0 +1,6 @@
+@Sadsol.POC.EmailSES.WepApi_HostAddress = http://localhost:5011
+
+GET {{Sadsol.POC.EmailSES.WepApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
